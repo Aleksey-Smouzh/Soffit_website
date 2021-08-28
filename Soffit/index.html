@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFFIT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">   
+</head>
+<body>
+      <header class="header"> 
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo_small.png" alt="logo"></a>
+              <button class="navbar-toggler  navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon btn-outline-warning"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link text-warning" href="index.html">Главная</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-warning" aria-current="page" href="about_the_studio.html">О студии</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-warning" href="our_teachers.html">Наши педагоги</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="_cost.html">Стоимость</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="contacts.html">Контакты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="https://www.instagram.com/soffitmasterskaya/"><img src="img/insta1.svg" alt="logo_insta"></a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Еще
+                    </a>
+                    <ul class="dropdown-menu bg-Light" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item " href="#">Отзывы</a></li>
+                      <li><a class="dropdown-item " href="#">Фотографии</a></li>
+                      <li><a class="dropdown-item " href="#">Сценарии</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+      <div class="header__title">
+          <div class="container">
+              <div id="text" data-text="Soffit"><h1 class="brend">Soffit</h1></div>
+              <span class="header__subtitle">Театральная мастерская <br>для детей и подростков</span>
+              <span class="header__address">ул. Волгоградская, 3А-4, г.Минск</span>
+          </div>
+      </div>
+      <!-- /.header__title -->
+      <script type="text/javascript">
+    var text = document.getElementById('text')
+    var shadow = '';
+    for(var i = 0; i < 10; i++)
+    {
+        shadow +=(shadow? ',':'')+ -i*1+'px '+ i*1+'px 0 #d9d9d9';
+    } 
+    text.style.textShadow = shadow;   
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!--<header class="header">
+        <div class="header__container">
+            <div class="logo>">
+                <img src="img/logo_small.png" alt="логотип"></div>
+        <div class="header__container-menu">
+                
+                <nav class="nav">
+                    <a class="nav-link" href=" # ">О студии</a>
+                    <a class="nav-link" href="# ">Наши педагоги</a>
+                    <a class="nav-link" href="# ">Стоимость</a>
+                    <a class="nav-link" href="# ">Контакты</a>
+                    <a class="nav-link" href="# ">Отзывы </a>
+                    <a class="nav-link" href="# ">Фотографии</a>
+                    <a class="nav-link" href="# ">Сценарии</a>
+                </nav>
+            </div>
+        </div>
+    
+        <div class="intro">
+            <div class="intro__container">
+                <div class="intro__container-inner">
+                    <h1 class=" intro__container-inner intro__container-title">SOFFIT</h1>
+                    <span class=" intro__container-inner intro__container-subtitle">Театральная мастерская для детей и подростков</span>
+                    <span class="intro__container-inner intro__container-subtitle2">ул. Волгоградская, 3А-4, г.Минск</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__top">
+                <h2 class="title">О студии</h2>
+                <div class="about__text">
+                    <p>Театральная мастерская «SOFFIT» имеет большой опыт работы в постановке детских спектаклей, таких как «Волшебник страны Оз», «Кот в сапогах», «Белоснежка и семь гномов», «Буратино» «Бременские музыканты», «Не покидай», «Обыкновенное
+                        чудо», бродвейские мюзиклы «Моя прекрасная леди», «Энни», «31 июня», а также тематических концертов, новогодних праздников, выпускных балов и мероприятий, реконструирующих XIX век. Постановки «SOFFIT» отличаются авторскими сценариями,
+                        разнообразием вокального репертуара, оригинальной хореографией и яркой подачей.</p>
+                </div>
+            </div>
+        </div>
+    </section>   
+        <div class="children">
+                <div class="container">
+                    <div class="kids">
+                     <img src="img/children1.svg " alt="kids1" class="kids__foto-one">
+                     <img src="img/children6.svg" alt="kids2" class="kids__foto-two">
+                     <img src="img/children3.svg" alt="kids3 "class="kids__foto-three">
+                     <img src="img/children4.svg" alt="kids4"class="kids__foto-for">
+                      <img src="img/children5.svg" alt="kids5"class="kids__foto5"> -->
+                    <!-- </div>
+                </div> 
+            </div>
+        </div>
+    </section>  -->
+    <!--<div class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title">Наши педагоги
+                </h2>
+                <div class="section-text">
+                    <p>Театральная мастерская «SOFFIT» - это высококлассные, квалифицированные педагоги, мастера своего дела, работающие в сфере внешкольного образования более 10 лет.</p>
+                </div>
+            </div>
+            <div class="img-container"></div>
+             <img class="img-teacher" src="img/teachers.svg" alt="teachers">
+        </div> 
+    </div>
+    <section class="vocalism">
+        <div class="text_voice_title">
+            <h2>Занятия по классическому и эстрадному вокалу.</h2>
+            <p class="text_voice"> Признайтесь честно, вы себя представляли на сцене с микрофоном в руках? А может, глядя на знаменитых артистов мюзикла, вы мечтали оказаться на их месте? Тогда вам непременно надо к нам! Занятия вокалом дают возможность не только мечтать о
+                сцене: у вас будет шанс принять участие в спектаклях и концертах, и со временем выйти на профессиональную сцену! С помощью педагогов театральной мастерской SOFFIT, начинающие артисты научатся правильному певческому дыханию, чистоте интонирования,
+                работе с микрофоном, работе с режиссером. На занятиях ребята делают упражнения по методике А. Н. Стрельниковой, С. В. Натаровой, выполняют комплекс артикуляционной гимнастики, расширяют голосовой диапазон, овладевают специальными вокальными
+                техниками.
+            </p>
+
+            <h3 class="title-list">Наши занятия вокалом помогут: </h3>
+            <ul class="list-vocalism">
+                <li>расширить голосовой диапазон
+                </li>
+                <li>развить артикуляционный аппарат
+                </li>
+                <li>развить музыкальный и фонематический слух </li>
+                <li>овладеть техникой «правильного» диафрагмального дыхания
+                </li>
+                <li>развить вокально-двигательную координацию </li>
+                <li>изучить особенности актерского, эстрадного, джазового вокала
+                </li>
+                <li>убрать зажимы в теле и избавиться от страха публичного выступления </li>
+            </ul>
+        </div>
+        <div class="title-choreography">
+            <h3>Занятия по хореографии
+            </h3>
+            <p class="text-choreography">Танцы – это замечательное развитие силы, выносливости, координации тела, музыкальности. Танцуя, дети и взрослые учатся выражать эмоции через тело, воплощать и доносить до зрителя свои чувства и мысли, а это залог развитого эмоционального интеллекта.
+                Чтобы быть понятым собеседником, зрителем, исполнителю нужно верно истолковать свои ощущения и передать их. Именно поэтому на уроках хореографией наши ребята пробуют свои силы в этом интересном деле. И конечно одним из самых ярких моментов
+                обучения, являются выступления. Импровизационные номера, массовые танцы, смесь видов зрелищных искусств (вокал, актерское мастерство, конферанс). Нет ничего более волнующего и захватывающего чем запах кулис, свет софитов, гул полного зала.
+                Костюмы, грим, ожидание… И вот режиссер говорит «Начали»!
+            </p>
+            <h3 class="title-list-choreography">Что же дают занятия хореографией? </h3>
+            <ul class="list-choreography">
+                <li> развивают гибкость и пластичность
+                </li>
+                <li>развивают координацию </li>
+                <li>улучшают осанку и укрепляют мышечный корсет </li>
+                <li>улучшают самочувствие </li>
+                <li>повышают уверенность в себе</li>
+                <li>дарят хорошее настроение и новые знакомства</li>
+                <li>знакомят с различными направлениями и техниками современного танца</li>
+            </ul>
+        </div>
+    
+      <section class="acting_skills__pianoe">
+        <div class="title_acting_skills">
+            <h3 class=>Занятия по актерскому мастерству</h3>
+            <p>Всем известно, что в современном мире существует масса сфер деятельности и профессий, где владение телом, голосом, речью является важной составляющей успеха. <br>Кроме того, эти навыки необходимы и в повседневной жизни. Актерское мастерство давно
+                перестало быть просто профессией для одних и хобби для других. Так кому же нужны курсы актерского мастерства? Абсолютно всем! Кто-то мечтает стать актером с детства. Другие, чувствуя в себе скрытый потенциал, хотят реализовать его на сцене
+                или перед камерой. А некоторые хотят развивать навыки коммуникации и желают освоить мастерство ораторского искусства, технику речи и владения голосом, в дальнейшем используя их для общения, ведения успешных деловых переговоров и бизнеса.
+                Помимо приобретения и повышения уровня мастерства, актерские тренинги помогают раскрыть творческий потенциал личности и скрытые способности. Результатом становится раскрепощение, снятие внутренних зажимов, устранение страха перед сценой
+                и аудиторией. Уроки актерского мастерства учат импровизации и способности креативно мыслить, которые так часто необходимы нам в разных сферах деловой и повседневной жизни.
+            </p>
+            <h3 class="title_list_acting_skills"> Благодаря занятиям актерским мастерством вы:</h3>
+            <ul class="list_acting_skills">
+                <li>на порядок повысите уровень своей коммуникабельности
+                </li>
+                <li>научитесь владеть телом, мимикой, жестом и голосом
+                </li>
+                <li>получите основы риторики, грамотной и объемной речи</li>
+                <li>научитесь не бояться сцены и аудитории</li>
+                <li>разовьете лидерские качества и умение работать в команде </li>
+                <li>разовьете творческое внимание, память и мышление</li>
+                <li> научитесь строить и воплощать различные образы </li>
+                <li>приобретете умение перевоплощения и импровизации</li>
+            </ul>
+        </div>
+        <div class="pianoe">
+            <h3 class="pianoe_title">Занятия по фортепиано</h3>
+            <p class="pianoe_text">Освоение музыкального инструмента, такого как фортепиано,<br> — это не просто изучение формы искусства, это возможность учиться и совершенствовать различные умения. 
+
+                Причем это актуально как для взрослых, так и для детей. Ведь помимо прямой пользы от изучения музыки, игра на фортепиано даёт ещё множество плюсов в других сферах развития ребёнка. Вот некоторые из них: </p>
+                
+                
+                <ul class="pianoe_list">
+                <li>развитие координации рук и глаз, дети намного быстрее и легче обучаются письму, вырабатывая красивый почерк </li> 
+                
+                <li>повышение концентрации внимания: ребёнок во время игры фокусирует своё внимание на чтении нот, учится играть произведение в заданном темпе </li>
+                
+                <li>развитие слуховых и речевых способностей: дети, которые играют на пианино, намного быстрее запоминают слова и строят предложения</li>
+                
+                <li>навыки быстрого чтения: благодаря тому, что ребёнок следит за нотами, считывая музыкальное произведение, и параллельно играет на инструменте, у него развиваются навык быстрого чтения </li>
+                
+                <li>тесная взаимосвязь музыки и изучения языков: благодаря тому, что в мозге человека центры, которые отвечают за изучение языков и музыки, тесно взаимосвязаны, изучение иностранных языков будет происходить гораздо легче </li>
+                
+                <li>развитие математических способностей: по данным последних исследований головного мозга, те дети, которые занимаются игрой на пианино имеют большие способности к точным наукам </li>
+        
+                <li>улучшение памяти и развитие воображения</li> 
+                <li>развитие сообразительности и логики: одновременная работа правого левого полушария мозга укрепляет нервные связи, а уровень IQ людей, которые занимаются музыкой, на 50% выше, чем у обычных людей.</li> 
+            </ul> 
+        </div> -->
+    <!-- </section> -->
+
+
