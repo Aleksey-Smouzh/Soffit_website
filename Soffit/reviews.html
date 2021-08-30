@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFFIT</title>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">   
+</head>
+<body>
+      <header class="header"> 
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo_small.png" alt="logo"></a>
+              <button class="navbar-toggler  navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon btn-outline-warning"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link text-warning" href="index.html">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-warning" aria-current="page" href="about_the_studio.html">О студии</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-warning" href="our_teachers.html">Наши педагоги</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="_cost.html">Стоимость</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="contacts.html">Контакты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="https://www.instagram.com/soffitmasterskaya/"><img src="img/insta1.svg" alt="logo_insta"></a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-warning" href="index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Еще
+                    </a>
+                    <ul class="dropdown-menu bg-Light" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item " href="reviews.html">Отзывы</a></li>
+                      <li><a class="dropdown-item " href="photos.html">Фотографии</a></li>
+                      <li><a class="dropdown-item " href="scenario.html">Сценарии</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+<section class="reviews">
+   <div class="container">
+    <div class="review">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="img/quote.png" alt="quote" class="testimonialBox__quote">
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quod cupiditate maiores nihil quos vitae odit dolorum assumenda. Earum pariatur soluta repellendus distinctio ullam rem laboriosam itaque, magnam error delectus.</p>
+                <div class="testimonialBox__details">
+                  <div class=" testimonialBox__details-imgBx">
+                    <img src="img/teacher1.svg" alt="users">
+                  </div>
+                  <h3>someone Famuse <br><span>Creativ Designer</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/reviews1.png"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/reviews2.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/rewiews3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/reviews4.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/reviews5.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Swiper JS -->
+    </div>
+  </div>
+ </section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2,
+      slideShadows: true,
+    },
+    loop: true,
+  });
+</script>
+    </body>
+    </html>
+
+    <!-- <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="img/quote.png" alt="quote" class="quote">
+            <div class="content">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quod cupiditate maiores nihil quos vitae odit dolorum assumenda. Earum pariatur soluta repellendus distinctio ullam rem laboriosam itaque, magnam error delectus.</p>
+              <div class="details">
+                <div class="imgBx">
+                  <img src="#" alt="users">
+                </div>
+                <h3>someone Famuse <br><span>Creativ Designer</span></h3>
+              </div>
+            </div>
+          </div>
+
+        </div>   swiper-slide -->
+      <!--</div> swiper-wrapper -->
+      <!-- </div> swiper container-->
+    <!-- </div>
+  </div>  <!-- container  -->
