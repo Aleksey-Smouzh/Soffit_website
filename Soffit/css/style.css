@@ -581,6 +581,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   min-height: 50vh;
+  margin-bottom: 30%;
 }
 
 .location__address {
@@ -623,10 +624,29 @@ img {
           transition-delay: 0.01s;
 }
 
+.logo {
+  padding-bottom: 5px;
+}
+
 .mybrend {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
   position: relative;
-  float: right;
-  bottom: %;
+  top: 16px;
+}
+
+.mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.details {
+  font-size: 12px;
+  line-height: 1em;
 }
 
 .cost__cards {
